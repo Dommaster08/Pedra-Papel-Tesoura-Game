@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#placar-box{
+    margin: 15px auto;
+    height: 20vh;
+    width: 300px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+
+#game-box{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.select-box{
+    margin: 5px;
+    height: 15vh;
+    width: 10vw;
+    border:  1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#result{
+    text-align: center;
+    margin-top: 25px;
+}
+
+#restart-box{
+    margin: 25px auto;
+    height: 8vh;
+    width: 10vw;
+    border:  1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+}
