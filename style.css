@@ -2,17 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #29335C;
+    color: #fff;
 }
 
 #placar-box{
     margin: 15px auto;
     height: 20vh;
     width: 300px;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.8rem;
+    background-color: #E4572E;
+    border-radius: 5px;
+    color: #fff;
 }
 
 
@@ -24,13 +33,17 @@
 .select-box{
     margin: 5px;
     height: 15vh;
-    width: 10vw;
-    border:  1px solid #000;
+    width: 8vw;
+    border:  1px solid #E4572E;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    border-radius: 50%;
+    font-size:45px;
+    background-color: #E4572E;
 }
+
 
 #result{
     text-align: center;
@@ -40,11 +53,13 @@
 #restart-box{
     margin: 25px auto;
     height: 8vh;
-    width: 10vw;
-    border:  1px solid #000;
+    width: 11vw;
+    border:  1px solid #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     display: none;
+    background-color: #E4572E;
 }
+
